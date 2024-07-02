@@ -1,0 +1,509 @@
+/* dispositivos móveis */
+@media (min-width: 320px) and (max-width: 480px) {
+    .contatos {
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .container_contato {
+        width: 80%;
+        height: 90%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+    }
+
+    .logo {
+        background-image: url(../../../../public/floricultura/1.opacity.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+
+
+    .logo h3 {
+        font-size: 2.5rem;
+        font-weight: 300;
+        text-shadow: -1.34px 1.48px #929292,
+            -2.01px 2.23px #929292,
+            -2.68px 2.97px #929292,
+            -3.35px 3.71px #929292,
+            -4.02px 4.45px #929292,
+            -4.69px 5.20px #929292,
+            -5.36px 5.94px #929292,
+            -6.03px 6.68px #929292,
+            -6.70px 7.42px #929292,
+            -7.37px 8.17px #929292,
+            -8.04px 8.91px #929292,
+            -8.71px 9.65px #929292;
+    }
+
+
+
+    .logo p {
+        font-weight: 200;
+        width: 70%;
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+
+    .form {
+        width: 100%;
+        height: 60%;
+    }
+
+    .form form {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .form form input {
+        width: 80%;
+        height: 35px;
+        border: none;
+        background: none;
+        outline: none;
+        border-bottom: solid 1px #000;
+    }
+
+    .form form textarea {
+        width: 80%;
+        height: 60px;
+        border: none;
+        background: none;
+        outline: none;
+        border-bottom: solid 1px #000;
+        resize: none;
+    }
+
+    .form form button {
+        width: 80%;
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+        background-color: #4CAF50;
+        color: #fff;
+    }
+}
+
+/* iPads, tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+    .contatos {
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .container_contato {
+        width: 75%;
+        height: 80%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+    }
+
+    .logo {
+        background-image: url(../../../../public/floricultura/1.opacity.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+
+
+    .logo h3 {
+        font-size: 3rem;
+        font-weight: 300;
+        text-shadow: -1.34px 1.48px #929292,
+            -2.01px 2.23px #929292,
+            -2.68px 2.97px #929292,
+            -3.35px 3.71px #929292,
+            -4.02px 4.45px #929292,
+            -4.69px 5.20px #929292,
+            -5.36px 5.94px #929292,
+            -6.03px 6.68px #929292,
+            -6.70px 7.42px #929292,
+            -7.37px 8.17px #929292,
+            -8.04px 8.91px #929292,
+            -8.71px 9.65px #929292;
+    }
+
+
+
+    .logo p {
+        font-weight: 200;
+        width: 70%;
+        font-size: 1.2rem;
+        text-align: justify;
+    }
+
+    .form {
+        width: 100%;
+        height: 60%;
+    }
+
+    .form form {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .form form input {
+        width: 80%;
+        height: 35px;
+        border: none;
+        background: none;
+        outline: none;
+        border-bottom: solid 1px #000;
+    }
+
+    .form form textarea {
+        width: 80%;
+        height: 60px;
+        border: none;
+        background: none;
+        outline: none;
+        border-bottom: solid 1px #000;
+        resize: none;
+    }
+
+    .form form button {
+        width: 80%;
+        height: 50px;
+        border: none;
+        border-radius: 10px;
+        background-color: #4CAF50;
+        color: #fff;
+    }
+}
+
+/* telas pequenas, laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .contatos {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Roboto", sans-serif;
+
+    }
+
+    .container_contato {
+        width: 80%;
+        height: 90%;
+        display: flex;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+    }
+
+    .logo {
+        background-image: url(../../../../public/floricultura/1.opacity.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .logo h3 {
+        font-size: 2.5rem;
+        font-weight: 300;
+        text-shadow: -1.34px 1.48px #929292,
+            -2.01px 2.23px #929292,
+            -2.68px 2.97px #929292,
+            -3.35px 3.71px #929292,
+            -4.02px 4.45px #929292,
+            -4.69px 5.20px #929292,
+            -5.36px 5.94px #929292,
+            -6.03px 6.68px #929292,
+            -6.70px 7.42px #929292,
+            -7.37px 8.17px #929292,
+            -8.04px 8.91px #929292,
+            -8.71px 9.65px #929292;
+    }
+
+    .logo p {
+        font-size: 1.2rem;
+        width: 90%;
+        text-align: justify;
+        font-weight: 200;
+
+    }
+
+    .form {
+        width: 60%;
+        height: 100%;
+    }
+
+    .form form {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .form form input {
+        width: 80%;
+        height: 40px;
+        border: none;
+        outline: none;
+        border-bottom: solid 1px #000;
+    }
+
+    .form form textarea {
+        width: 80%;
+        height: 80px;
+        border: none;
+        resize: none;
+        border-bottom: solid 1px #000;
+        outline: none;
+    }
+
+    .form form button {
+        width: 80%;
+        height: 50px;
+        border: none;
+        background-color: #4CAF50;
+        color: #fff;
+        border-radius: 10px;
+
+    }
+}
+
+/* desktops, telas grandes */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .contatos {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Roboto", sans-serif;
+
+    }
+
+    .container_contato {
+        width: 80%;
+        height: 90%;
+        display: flex;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+    }
+
+    .logo {
+        background-image: url(../../../../public/floricultura/1.opacity.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .logo h3 {
+        font-size: 3rem;
+        font-weight: 300;
+        text-shadow: -1.34px 1.48px #929292,
+            -2.01px 2.23px #929292,
+            -2.68px 2.97px #929292,
+            -3.35px 3.71px #929292,
+            -4.02px 4.45px #929292,
+            -4.69px 5.20px #929292,
+            -5.36px 5.94px #929292,
+            -6.03px 6.68px #929292,
+            -6.70px 7.42px #929292,
+            -7.37px 8.17px #929292,
+            -8.04px 8.91px #929292,
+            -8.71px 9.65px #929292;
+    }
+
+    .logo p {
+        font-size: 1.2rem;
+        width: 90%;
+        text-align: justify;
+        font-weight: 200;
+
+    }
+
+    .form {
+        width: 60%;
+        height: 100%;
+    }
+
+    .form form {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .form form input {
+        width: 80%;
+        height: 40px;
+        border: none;
+        outline: none;
+        border-bottom: solid 1px #000;
+    }
+
+    .form form textarea {
+        width: 80%;
+        height: 80px;
+        border: none;
+        resize: none;
+        border-bottom: solid 1px #000;
+        outline: none;
+    }
+
+    .form form button {
+        width: 80%;
+        height: 50px;
+        border: none;
+        background-color: #4CAF50;
+        color: #fff;
+        border-radius: 10px;
+
+    }
+}
+
+/* telas muito grandes, TVs */
+@media(min-width: 1201px) {
+    .contatos {
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Roboto", sans-serif;
+
+    }
+
+    .container_contato {
+        width: 80%;
+        height: 80%;
+        display: flex;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+
+    .logo {
+        background-image: url(../../../../public/floricultura/1.opacity.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+    }
+
+    .logo h3 {
+        font-size: 4rem;
+        font-weight: 300;
+        text-shadow: -1.34px 1.48px #929292,
+            -2.01px 2.23px #929292,
+            -2.68px 2.97px #929292,
+            -3.35px 3.71px #929292,
+            -4.02px 4.45px #929292,
+            -4.69px 5.20px #929292,
+            -5.36px 5.94px #929292,
+            -6.03px 6.68px #929292,
+            -6.70px 7.42px #929292,
+            -7.37px 8.17px #929292,
+            -8.04px 8.91px #929292,
+            -8.71px 9.65px #929292;
+    }
+
+    .logo p {
+        font-size: 1.2rem;
+        width: 90%;
+        text-align: justify;
+        font-weight: 200;
+
+    }
+
+    .form {
+        width: 60%;
+        height: 100%;
+    }
+
+    .form form {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .form form input {
+        width: 80%;
+        height: 60px;
+        border: none;
+        outline: none;
+        border-bottom: solid 1px #000;
+    }
+
+    .form form textarea {
+        width: 80%;
+        height: 90px;
+        border: none;
+        resize: none;
+        border-bottom: solid 1px #000;
+        outline: none;
+    }
+
+    .form form button {
+        width: 80%;
+        height: 60px;
+        border: none;
+        background-color: #4CAF50;
+        color: #fff;
+        border-radius: 10px;
+    }
+}
